@@ -8,8 +8,6 @@ const end_date_hour = 23;
 const start_date_minute = 30;
 const end_date_minute = 59;
 
-//You don't need to touch any code below!!!
-
 var result = display(generate(times));
 
 function random_date_day() {
@@ -50,9 +48,6 @@ function generate(times) {
     const tempdate2 = start_date_month.toString(10) + end_date_day.toString(10) + tempEndHour + tempEndMinute;
     const start_date = parseInt(tempdate1, 10);
     const end_date = parseInt(tempdate2, 10);
-
-    // console.log("Start:", start_date)
-    // console.log("End  :", end_date);
 
     for (let i = 0; i < times; i++) {
 
