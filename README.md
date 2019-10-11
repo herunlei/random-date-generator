@@ -1,1 +1,1 @@
-# AB-randomDateGenerator
+# Just a simple random date generator
